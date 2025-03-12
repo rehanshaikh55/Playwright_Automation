@@ -10,7 +10,7 @@ test('auto suggestion box in red bus', async ({page}) => {
   for (let op of options){
     const value = await op.textContent();
     console.log(value);
-    if(value.includes === "Satellite"){
+    if(value.includes === "Ahmedabad"){
         op.click();
     }
     
